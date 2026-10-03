@@ -3,7 +3,11 @@
 #include "project4.h"
 
 int main(int argc, char *argv[]) {
-  printf("%s\n", argv[1]);
-  printf("%s\n", argv[2]);
+  if (argc == 3) {
+    Node *list_head = NULL;
+    read_file(argv[1]);
+  } else {
+    printf("Invalid input. Please try again\n");
+  }
   return 0;
 }
