@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include "project4.h"
 
-void insert() {
+// Insert the node where asked
+void insert(Node &list_head, Node new_node_ptr) {
+
   return 0;
 }

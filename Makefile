@@ -17,8 +17,12 @@ project4main.o: project4main.c project4.h
 	gcc $(gcc_opt) -o project4main.o project4main.c
 
 # Create readfile.o
-readfile.o:
+readfile.o: readfile.c project4.h
 	gcc $(gcc_opt) -o readfile.o readfile.c
+
+# Create insert.o
+insert.o: insert.c project4.h
+	gcc $(gcc_opt) -o insert.o insert.c
 
 # Create the clean command
 clean:
