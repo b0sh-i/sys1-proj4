@@ -21,8 +21,10 @@ typedef struct Node {
 
 void read_file(char *file_input);
 
-void insert();
+void insert(Node &list_head, Node new_node_ptr);
 
 void delete_node();
+
+Node *find_spot(Node *list_head, Node *new_node_ptr);
 
 #endif 
