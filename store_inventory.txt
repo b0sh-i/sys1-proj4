@@ -1,0 +1,23 @@
+Ore-Ida Frozen Potatoes	Frozen Foods	780	4.69	1.64	270	500
+Pillsbury Cinnamon Rolls	Dairy	1050	4.29	2.12	170	2000
+Tostito Chips - Original	Snacks	1850	2.99	1.50	60	500
+Ben & Jerry's Pints - Half Baked	Frozen Foods	551	4.49	2.51	350	400
+Spare Ribs - Pork	Fresh Meat	7020	6.49	3.10	212	410
+Bush's Seasoned Black Beans	Canned Goods	2120	1.79	0.77	420	1000
+Minute Instant Rice	Dry Goods	3232	2.39	0.64	320	500
+Philadelphia Cream Cheese Brick	Dairy	1051	3.29	1.12	449	1000
+Nabisco OREO Cookies	Cookies	667	3.29	2.29	310	500
+Cheez-it	Snacks	1851	3.99	1.75	160	350
+Campbell's Condensed Soup - Tomato	Canned Goods	2150	1.29	0.57	933	2000
+Campbell's Condensed Soup - ChickNoodle	Canned Goods	2151	1.29	0.57	421	2000
+Nabisco OREO Double Stuff Cookies	Cookies	672	3.29	2.29	312	500
+Ground Beef - 95%lean	Fresh Meat	8282	5.69	3.79	347	500
+Campbell's Condensed Soup - Veg Beef	Canned Goods	2152	1.29	0.57	577	2000
+Campbell's Condensed Soup - Crm Mush	Canned Goods	2153	1.29	0.57	1250	2000
+Vlasic Dill Pickles	Refrigerated Items	4001	2.29	1.57	159	300
+Ben & Jerry's Pints - Cherry Garcia	Frozen Foods	550	5.29	2.51	400	400
+Plochman Yellow Mustard	Dry Goods	2252	2.39	0.92	220	500
+Minute Maid Fruit Drinks - Orange	Refrigerated Items	1399	2.29	0.52	256	500
+Horizon Organic Milk - 64 fl oz	Dairy	962	4.29	2.01	527	800
+Nabisco OREO Mint Cream Cookies	Cookies	668	3.29	2.29	440	500
+Fresh Tuna Steaks	Fresh Meat	9777	11.50	6.00	100	155

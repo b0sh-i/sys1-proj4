@@ -4,8 +4,8 @@
 struct Cost {
   float wholesalePrice;
   float  retailPrice;
-  int wholesaleQuantity
-  int retailQuantity
+  int wholesaleQuantity;
+  int retailQuantity;
 };
 struct Data {
   char item[50];
@@ -19,12 +19,14 @@ typedef struct Node {
   struct Node *next;
 } Node;
 
-void read_file(char *file_input);
+int read_file(Node **list_head, char *file_input);
 
-void insert(Node &list_head, Node new_node_ptr);
+void insert(Node **list_head, Node *new_node_ptr);
 
 void delete_node();
 
 Node *find_spot(Node *list_head, Node *new_node_ptr);
+
+Node *build_node(FILE *input_file);
 
 #endif 
