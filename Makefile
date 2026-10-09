@@ -9,8 +9,8 @@ project4.zip: Makefile project4Readme project4.h
 	zip project4 Makefile project4Readme project4.h
 
 # Compile project4 from .o files
-project4: project4main.o readfile.o buildnode.o insert.o findspot.o printinstock.o printoutstock.o printitem.o project4.h
-	gcc -o project4 project4main.o readfile.o buildnode.o insert.o findspot.o printinstock.o printoutstock.o printitem.o
+project4: project4main.o readfile.o buildnode.o insert.o findspot.o printinstock.o printoutstock.o printitem.o findbystock.o revenue.o wholesalecost.o currentinvestment.o totalprofit.o totalsales.o averageprofitsale.o  deptsearch.o findmatch.o project4.h
+	gcc -o project4 project4main.o readfile.o buildnode.o insert.o findspot.o printinstock.o printoutstock.o printitem.o findbystock.o revenue.o wholesalecost.o currentinvestment.o totalprofit.o totalsales.o averageprofitsale.o deptsearch.o findmatch.o
 
 # Create project4main.o
 project4main.o: project4main.c project4.h
@@ -43,6 +43,46 @@ printoutstock.o: printoutstock.c project4.h
 # Create print_item.o
 printitem.o: printitem.c project4.h
 	gcc $(gcc_opt) -o printitem.o printitem.c
+
+# Create findbystock.o
+findbystock.o: findbystock.c project4.h
+	gcc $(gcc_opt) -o findbystock.o findbystock.c
+
+# Create revenue.o
+revenue.o: revenue.c project4.h 
+	gcc $(gcc_opt) -o revenue.o revenue.c
+
+# Create wholesalecost.o
+wholesalecost.o: wholesalecost.c project4.h 
+	gcc $(gcc_opt) -o wholesalecost.o wholesalecost.c
+
+# Create currentinvestment.o
+currentinvestment.o: currentinvestment.c project4.h 
+	gcc $(gcc_opt) -o currentinvestment.o currentinvestment.c
+
+# Create totalprofit.o
+totalprofit.o: totalprofit.c project4.h 
+	gcc $(gcc_opt) -o totalprofit.o totalprofit.c
+
+# Create totalsales.o
+totalsales.o: totalsales.c project4.h 
+	gcc $(gcc_opt) -o totalsales.o totalsales.c
+
+# Create averageprofitsale.o
+averageprofitsale.o: averageprofitsale.c project4.h 
+	gcc $(gcc_opt) -o averageprofitsale.o averageprofitsale.c
+
+# Create deptsearch.o
+deptsearch.o: deptsearch.c project4.h 
+	gcc $(gcc_opt) -o deptsearch.o deptsearch.c
+
+# Create findmatch.o
+findmatch.o: findmatch.c project4.h 
+	gcc $(gcc_opt) -o findmatch.o findmatch.c
+
+
+
+
 
 # Create the clean command
 clean:

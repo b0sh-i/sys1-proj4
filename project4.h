@@ -23,7 +23,7 @@ int read_file(Node **list_head, char *file_input);
 
 void insert(Node **list_head, Node *new_node_ptr);
 
-void delete_node();
+void delete_node(Node **list_head);
 
 Node *find_spot(Node *list_head, Node *new_node_ptr);
 
@@ -34,5 +34,27 @@ void print_in_stock(Node *list_head);
 void print_out_stock(Node *list_head);
 
 void print_item(Node *selected_node);
+
+void find_by_stock(*list_head, int stock_number);
+
+void node_disconnect(Node *found_node, Node **list_head);
+
+float revenue(Node *list_head);
+
+float wholesale_cost(Node *list_head);
+
+float current_investment(Node *list_head);
+
+int total_sales(Node *list_head);
+
+float total_profit(Node *list_head);
+
+float average_profit_sale(Node *list_head);
+
+void dept_search(Node *list_head);
+
+void  lower(char *search);
+
+void find_match(Node *list_head, char *search);
 
 #endif 
