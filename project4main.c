@@ -9,6 +9,8 @@ int main(int argc, char *argv[]) {
   if (argc == 3) {
     read_amount = read_file(&list_head, argv[1]);
     printf("%d records read\n", read_amount);
+    print_in_stock(list_head);
+    print_out_stock(list_head);
   } else {
     printf("Invalid input. Please try again\n");
     return 1;

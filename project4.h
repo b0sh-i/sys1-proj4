@@ -29,4 +29,10 @@ Node *find_spot(Node *list_head, Node *new_node_ptr);
 
 Node *build_node(FILE *input_file);
 
+void print_in_stock(Node *list_head);
+
+void print_out_stock(Node *list_head);
+
+void print_item(Node *selected_node);
+
 #endif 
